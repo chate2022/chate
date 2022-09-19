@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* estilização da sala de bate papo */
+.display-btp {
+  height: 80vh;
+  /* display: flex;
+  flex-direction: column; */
+}
+.text {
+  width: 90%;
+}
+
+/* chat de conversa */
+#chat {
+  overflow: auto;
+  margin-top: 10px;
+  color: white;
+  height: 70vh;
+  background-color: rgb(35, 83, 83);
+}
+#userImage {
+  height: 30px;
+}
+#userInfo {
+  background-color: rosybrown;
+}
+
+

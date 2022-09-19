@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <title>Document</title>
+  <style>
+    body{
+      background: #8E2DE2;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+
+
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title text-center">Cadastro</h4>
+        <form>
+          <div class="form-group">
+            <label for="email" class="mr-2 mb-2">Email:</label>
+            <input type="email" class="form-control" placeholder="O Seu Melhor Email" id="email" required>
+            <label for="fone" class="mb-2 mr-2">Watssap:</label>
+            <input type="email" class="form-control" placeholder="( ) XX XXXXX - XXXX" id="fone" required>
+            <label for="nick" class="mb-2 mr-2">NickName:</label>
+            <input type="text" class="form-control" placeholder="Escolha um nome" id="nick">
+            <label for="age" class="mb-2 mr-2">Idade:</label>
+            <input type="number" class="form-control" placeholder="Quantos anos você tem?" id="age">
+          </div>
+
+          <div class="" id="">
+            <div class="form-group form-check">
+              <h3 class="text-center">Orientação</h3>
+              <div class="row container-fluid">
+                <div class="col-4 mx-auto">
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Heterossexual
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Bissexual
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Lésbica Ativa-indiscreta
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Lésbica Ativa-discreta
+                  </label>
+                </div>
+              
+                <div class="col-4 mx-auto">
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Lésbica Passiva
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Homossexual Ativo
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Homossexual Passivo-discreto
+                  </label>
+                  <label class="form-check-label mr-4 mb-2">
+                    <input class="form-check-input ml-n3" type="checkbox" name="orientation"> Homossexual Passivo indiscreto
+                  </label>
+              </div>
+            </div>
+          <div class="">
+            <button type="submit" class="btn btn-primary ">Enviar</button>
+          </div>
+        </form>
+        <p class="card-text">Lembre-se sempre de manter o <i><strong>RESPEITO</strong></i></p>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+ 
+ <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ 
+ <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    </script>
+    <script src="./src/firebase/firebase.js"></script>
+    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/auth.js"></script>
+    <script src="./src/scripts/db.js"></script>
+</body>
+</html>

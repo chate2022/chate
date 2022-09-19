@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.login {
+  margin-top: 50px;
+  border: 1px solid #000000;
+  width: 600px;
+  height: 600px;
+  /* background-color: aquamarine; */
+}
+.loading {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 137px);
+  z-index: 1;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,23 @@
+1 - Recriar a estrutura do site pensando em como fazer de forma que fique sincrona 
+##                                -ideia do cliente-
+•  Coloque na primeira pagina, um cadastro de entrada  Pedindo : *e-MAIL:(o seu melhor )______*WHATSAPP:( )_  *Nick:_____________ ,                                                *Idade:_____________ *Orientação:_____________(PRA SELECIONAR: Heterossexual / Bissexual / Lésbica Ativa-indiscreta / Lésbica Ativa-discreta/Lésbica Passiva  /Homossexual  Ativo/Homossexual Passivo-discreto / Homossexual Passivo indiscreto.                                  *Interesse____________(Conversar Geral / Conversar pra namorar / Conversar pra sexo casual / Conversar pra primeiro sexo).  OBS:  O CADASTROS SEMPRE VAI TOMAR POR REFERENCIA O E-MAIL E WHATS, APOIS FEITO O CADASTRO PELA PRIMEIRA VEZ, FICA GUARDADO INTERNAMENTE NO ADM DO SITE. E O CURSOR DEVE SEMPRE PISCAR NO NICK PARA QUE AO CARREGAR AS INFORMAÇOES, PERCEBA O USUARIO QUE ESTE ELE PODE SEMPRE MODIFICAR.
+•  OPA: ESQUICI QUE NA PAGINA INICIAL, FALTOU UM QUADRADO PRA COLETAR A FOTO COM O BOTAL, DEXAR IMAGEM VISÍVEL OU DEIXAR INVISIVEL. TAMBÉM O MAIS IMPOTANTE O BOTÃO:        E N T R A R
+•  A PAGINA DE ESCOLHA DAS SALAS:
+ 1) SALA POMERODE/            6)SALA TIMBÓ / 
+ 2) SALA BLUMENAU/            7) SALA:  AS 6 CIDADES /
+ 3)SALA GASPAR /              8) SALA A PROCURA DOS TIOZINHOS VIAJANTES /
+ 4) SALA INDAIAL/             9) SALA A PROCURA DAS TIAZINHAS VIAJANTES
+ 5)SALA BRUSQUE/ 
+
+ As classes são usadas no formato: {property}{sides}-{size}for xse {property}{sides}-{breakpoint}-{size}
+ 
+•  NA PAGINA ONDE ROLA O BATE PAPO: BEM EM CIMA DEVE FICAR ESCRITO:  ********SE A SALA ESTIVER VAZIA, OU O PAPO NÃO FLUIR BEM, CHAME A ATENÇÃO  DOS PARTICIPANTES COM SUA MENSAGEM NO MURAL DE RECADO AO LADO. AO CLICARES EM SAIR, VOCÊ PODERÁ DEIXAR SUA MENSAGEM NO MURAL
+                               ********
+ATENÇÃO PROGRAMADOR: A MENSAGEM DO MURAL, JÁ VAI APARECER NO MOMENTE QUE SE CLICA EM SAIR COM AS INFORMAÇÕES CADASTRAIS SENDO APRESENTADA E DANDO OPORTUNIDADE DO PARTICIPANTE  ATIVAR A VISUALIZAÇÃO OU NÃO DA FOTO E E-MAIL OU WHATS. EXEMPLO DE COMO FICARÁ:
+•  EU,  P E D R O ( O NICK DA  ENTRADA NA SALA, MEMO QUE SEJA DIFERENTE DO PRIMEIRO CADASTRO) , SELECIONADOR  IDADE DE  ¨¨  ANOS, ENTRA --- APARECE A  O R I E N T A Ç Ã O,  E APARECE O DESEJO: APARECE O I N T E R E S S E ,  ENTÃO AGUADO SUA PROCURA POR :  SELESIONADOR : E-MAIL E WHATSAPP  / SÓ E-MAIL , SÓ WHATSAPP.  { E APARECE DO LADO DO CADASTRO O E-MAIS E OU O SAPP ]
+•  FICARIA ASSIM A FRASE:  EU PEDRO DE 19 ANOS , HETEROSSEXUAL QUERO  CONVERSAR , ENTÃO AGUARDO SUA PROCURA  VIA MEU  E-MAIL E WHATSAPP - pedrjjjkkk.om , ( XX) XXXX-XXX .    [ As mensagens do mural ficarão expostas por sete dias ]
+•  É ISSO. É ESSA A IDEIA GERAL.
+•  EU FIZ NA HOSTINGER TEM PROBLEMA? AINDA NÃO VI A QUESTÃO DA HOSPEDAGEM, PODE ME AJUDAR, SERÁ QUE PODE SER O PACOTE SIMPLES?
+•  obs: o mural, também deve ir pro adm do site, para ser deletado depois de 7 dias, isso manualmente ou sistemicamente também.
+ACHO QUE TAMBEM UM BANNER DE VENDA
+
